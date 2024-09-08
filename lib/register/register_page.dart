@@ -16,9 +16,9 @@ class RegisterPage extends StatefulWidget {
 }
 
 class _RegisterPageState extends State<RegisterPage> {
-  TextEditingController usernameController =TextEditingController(text: 'ezzeldeen');
+  TextEditingController usernameController =TextEditingController(text: 'ahmed');
 
-  TextEditingController emailController =TextEditingController(text: 'ezzeldeen69@gmail.com');
+  TextEditingController emailController =TextEditingController(text: 'ahmed99@gmail.com');
 
   TextEditingController passwordController =TextEditingController(text: '123456');
 
@@ -115,7 +115,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     },
                     controller: passwordController,
                     label: AppLocalizations.of(context)!.password,
-                    prefixIcon: Icon(Icons.password),
+                    prefixIcon: Icon(Icons.password_sharp),
                     iconColor: AppColors.blueColor,
                     keyboardType: TextInputType.visiblePassword,
                     floatingLabelStyleColor: AppColors.blueColor,
@@ -136,7 +136,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     },
                     controller: confirmPasswordController,
                     label: AppLocalizations.of(context)!.confirm_password,
-                    prefixIcon: Icon(Icons.password),
+                    prefixIcon: Icon(Icons.password_sharp),
                     iconColor: AppColors.blueColor,
                     keyboardType: TextInputType.visiblePassword,
                     floatingLabelStyleColor: AppColors.blueColor,
